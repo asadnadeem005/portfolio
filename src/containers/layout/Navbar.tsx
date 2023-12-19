@@ -137,7 +137,7 @@ const Navbar = () => {
                   {cta.title}
                 </Button>
               )}
-              <DarkModeButton
+              {/* <DarkModeButton
                 onClick={() => setNavbarCollapsed(false)}
                 variants={slideIn({
                   delay: ANIMATION_DELAY + (navLinks.length + 1) / 10,
@@ -145,7 +145,7 @@ const Navbar = () => {
                 })}
                 initial="hidden"
                 animate="show"
-              />
+              /> */}
             </div>
           </ul>
         </nav>

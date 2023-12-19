@@ -6,23 +6,24 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
   projects: [
     {
       id: getId(),
-      name: 'Integra',
-      description: 'An AI-Powered Leads Generation Platform.',
+      name: 'ReME',
+      description: 'ReME: Dating, Chat & Meet',
       tasks:
-        'I strategically planned project milestones, led a cross-functional team, established a design system, developed the website, and integrated Stripe payments with secure authentication.',
-      url: 'https://www.integraleads.xyz/',
-      img: 'https://user-images.githubusercontent.com/68834718/279476369-2f69466a-71db-4da0-9afd-04f8f0efb621.jpeg',
-      tags: ['AI/ML', 'NextJs', 'TypeScript', 'TailwindCSS', 'Express'],
+        'I strategically planned project milestones, led a cross-functional team, established a design system, developed the REST APIs, with JWT authentication.',
+      url: 'https://play.google.com/store/apps/details?id=com.pentabit.recommend.me.social',
+      img: '/images/reme.jpg',
+      tags: ['NodeJs', 'TypeScript', 'TailwindCSS', 'Express', 'Prisma'],
     },
     {
       id: getId(),
-      name: 'uProposalGpt',
-      description: 'The AI-powered platform that simplifies proposal creation.',
+      name: 'Villa Pads',
+      description:
+        'A curated collection of Luxurious villa rentals with guaranteed 5-star hospitality ',
       tasks:
-        'Implemented NextAuth authentication, integrated Mailchimp for newsletter subscription, developed a custom hook for dark mode, created UI components in the Dashboard, and used Notion as a CMS for the blogs page.',
-      url: 'https://www.uproposalgpt.com/',
-      img: 'https://user-images.githubusercontent.com/68834718/279469731-be163482-20cd-4cb3-8bcb-bbb2c1a345b8.png',
-      tags: ['Open AI', 'NextJs', 'TypeScript', 'TailwindCSS', 'Prisma'],
+        'Implemented Twill authentication, integrated Mailchimp for newsletter subscription, developed a custom website to showcase Villas, created Livewire components in the Dashboard, and used Twill as a CMS for dashboard.',
+      url: 'https://villapads.com/',
+      img: '/images/villapads.png',
+      tags: ['Twill', 'Laravel', 'Livewire', 'TailwindCSS', 'MySql'],
     },
   ],
 };
