@@ -17,5 +17,5 @@ export const aboutSection: AboutSectionType = {
       'Unit Testing',
     ],
   },
-  img: '/muhammad-asad.jpeg',
+  img: '/muhammad-asad.jpg',
 };
