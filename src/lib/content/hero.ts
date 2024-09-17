@@ -6,7 +6,7 @@ export const heroSection: HeroSectionType = {
   title: 'muhammad asad.',
   tagline: 'I create visually pleasing interfaces & backend for the web.',
   description:
-    '🌟 Software Engineer with 3+ years of Experience | MERN Stack | TypeScript | RESTAPIs | Full Stack Developer | Docker | AWS',
+    '🌟 Software Engineer with solid history of doing well in IT industry | MERN Stack | NestJS | Web 3.0 | TypeScript | RESTAPIs | Full Stack Developer | Docker ',
   specialText: 'Currently available for a job & freelance',
   cta: {
     title: 'see my resume',

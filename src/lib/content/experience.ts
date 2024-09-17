@@ -4,11 +4,26 @@ export const experienceSection: ExperienceSectionType = {
   title: "where i've worked",
   experiences: [
     {
+      company: 'Softbuilders UAE ',
+      companyUrl: 'https://softbuilders.com/',
+      role: 'Software Engineer',
+      started: 'Sep 2024',
+      upto: 'present',
+      tasks: [
+        'Developed and maintained scalable Dockerized solutions in Node.js, TypeScript, and Prisma',
+        'Developed and maintained design systems that separates design logic.',
+        'Design client-side and server-side architecture',
+        'Understanding client needs and proposing effective solutions, which also involves strategising and planning.',
+        'Lead a cross-functional team of developers and designers in the creation of projects.',
+        'Write technical documentation to enhace frontend team 15% more understanding',
+      ],
+    },
+    {
       company: 'ConsoliAds',
       companyUrl: 'https://consoliads.com/',
       role: 'Software Engineer',
       started: 'Nov 2022',
-      upto: 'present',
+      upto: 'Feb 2024',
       tasks: [
         'Developed and maintained scalable Dockerized solutions in Node.js, TypeScript, and Prisma',
         'Developed and maintained design systems that separates design logic.',
