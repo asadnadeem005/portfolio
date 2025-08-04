@@ -6,6 +6,17 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
   projects: [
     {
       id: getId(),
+      name: 'Ai Farm',
+      description:
+        'A unified platform designed to facilitate access to Web3 through decentralized technologies',
+      tasks:
+        'I strategically planned project milestones, led a cross-functional team, established a design system, developed the REST APIs, with JWT authentication.',
+      url: 'https://app.aifarm.network/auth/login',
+      img: '/images/aifarm.png',
+      tags: ['ReactJs', 'Framer Motion', 'RTK Query', 'NestJs', 'TypeScript'],
+    },
+    {
+      id: getId(),
       name: 'ReME',
       description: 'ReME: Dating, Chat & Meet',
       tasks:
