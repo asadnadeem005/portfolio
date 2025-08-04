@@ -17,5 +17,5 @@ export const aboutSection: AboutSectionType = {
       'Linux',
     ],
   },
-  img: '/muhammad-asad.jpg',
+  img: '/muhammad-asad.jpeg',
 };
