@@ -32,16 +32,17 @@ const TabList = ({ experiences }: Props) => {
   return (
     <div className="flex flex-col sm:flex-row text-sm md:text-base gap-6 md:gap-10 min-h-[250px]">
       {/* Sidebar */}
-      <div className="font-mono text-xs sm:text-sm relative flex justify-start sm:flex-col overflow-scroll sm:overflow-auto sm:min-w-[180px]">
-        {experiences.map(({ company }, i) => (
+      <div className="font-mono text-xs sm:text-sm relative flex justify-start sm:flex-col overflow-scroll sm:overflow-auto sm:min-w-[140px]">
+        {experiences.map(({ company, shortName }, i) => (
           <button
             key={getId()}
-            className={`h-10 min-w-[120px] sm:w-auto sm:px-5 sm:!text-left capitalize hover:bg-accent-light hover:text-accent focus:outline-none focus:bg-accent-light focus:text-accent ${
+            title={company}
+            className={`h-10 min-w-[120px] sm:w-auto sm:px-5 sm:!text-left whitespace-nowrap capitalize hover:bg-accent-light hover:text-accent focus:outline-none focus:bg-accent-light focus:text-accent ${
               i === activeExperience ? 'text-accent' : ''
             }`}
             onClick={() => setActiveExperience(i)}
           >
-            {company}
+            {shortName ?? company}
           </button>
         ))}
         {/* Slider */}

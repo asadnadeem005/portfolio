@@ -18,6 +18,7 @@ export type CTAType = {
 export type ExperienceType = {
   role: string;
   company: string;
+  shortName?: string;
   companyUrl: string;
   started: Date | string;
   upto: Date | 'present' | string;

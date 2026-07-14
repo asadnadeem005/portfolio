@@ -10,7 +10,7 @@ import { slideUp } from '@/styles/animations';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
-  const { cta, subtitle, title, tagline, description, specialText } =
+  const { cta, subtitle, title, tagline, description, specialText, badges } =
     heroSection;
 
   const windowWidth = useWindowWidth();
@@ -71,11 +71,29 @@ const Hero = () => {
         {specialText}
       </motion.p>
 
+      {badges && badges.length > 0 && (
+        <motion.div
+          variants={slideUp({ delay: getAnimationDelay(5) })}
+          initial="hidden"
+          animate="show"
+          className="flex flex-wrap gap-2"
+        >
+          {badges.map((badge) => (
+            <span
+              key={badge}
+              className="font-mono text-xs px-3 py-1.5 rounded-full border border-accent text-accent bg-accent-light"
+            >
+              {badge}
+            </span>
+          ))}
+        </motion.div>
+      )}
+
       {cta && (
         <Button
           size="lg"
           type="link"
-          variants={slideUp({ delay: getAnimationDelay(5) })}
+          variants={slideUp({ delay: getAnimationDelay(6) })}
           initial="hidden"
           animate="show"
           href={cta?.url ?? '#'}
