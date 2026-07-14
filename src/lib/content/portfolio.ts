@@ -12,6 +12,7 @@ export const socialLinks: StringKeyValueType = {
   twitter: 'https://twitter.com/asadnad72250325',
   github: 'https://github.com/asadnadeem005',
   linkedin: 'https://www.linkedin.com/in/themuhammadasadnadeem/',
+  whatsapp: 'https://wa.me/971551245583',
 };
 
 export const author = {

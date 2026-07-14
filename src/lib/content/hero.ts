@@ -12,6 +12,6 @@ export const heroSection: HeroSectionType = {
   cta: {
     title: 'see my resume',
     url: `/${resumeFileName}`,
-    hideInDesktop: true,
+    hideInDesktop: false,
   },
 };

@@ -32,7 +32,7 @@ export const skillsSection: SkillsSectionType = {
       id: getId(),
       title: 'frontend & web',
       lottie: {
-        light: '/lotties/designing.json',
+        light: '/lotties/fullstack.json',
         dark: '/lotties/designing-dark.json',
       },
       points: [
@@ -55,8 +55,8 @@ export const skillsSection: SkillsSectionType = {
       id: getId(),
       title: 'AI-augmented engineering',
       lottie: {
-        light: '/lotties/frontend.json',
-        dark: '/lotties/frontend-dark.json',
+        light: '/lotties/coding.json',
+        dark: '/lotties/cloudinfra.json',
       },
       points: [
         'Using Claude AI and Cursor AI for AI-assisted component scaffolding, reducing dev time by 30%',
