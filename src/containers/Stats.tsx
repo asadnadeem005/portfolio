@@ -1,6 +1,8 @@
 'use client';
 import { Wrapper } from '@/components';
+
 import { getSectionAnimation } from '@/styles/animations';
+
 import { motion } from 'framer-motion';
 
 const stats = [

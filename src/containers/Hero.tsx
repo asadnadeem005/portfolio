@@ -1,6 +1,8 @@
 'use client';
 import { heroSection } from '@/lib/content/hero';
+
 import { Button, Wrapper } from '@/components';
+
 import { useEffect, useState } from 'react';
 
 const typewriterWords = ['mobile apps.', 'web experiences.', 'AI interfaces.'];

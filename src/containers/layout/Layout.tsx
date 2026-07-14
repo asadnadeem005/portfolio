@@ -1,5 +1,5 @@
-import { Email, Footer, Navbar, Social } from '@/containers';
 import ScrollProgress from '@/components/ui/ScrollProgress';
+import { Email, Footer, Navbar, Social } from '@/containers';
 
 type Props = {
   children: React.ReactNode;
