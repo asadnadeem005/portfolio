@@ -24,5 +24,9 @@ export const socialSection: SocialSectionType = {
         icon: 'lucide:facebook',
         url: socialLinks.facebook,
     },
+    {
+        icon: 'mdi:whatsapp',
+        url: socialLinks.whatsapp,
+    },
     ],
 };

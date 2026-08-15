@@ -24,22 +24,25 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, my name is <span className='font-extrabold'>Muhammad Asad</span>, an artist as well as crazy full stack
-            web developer who wants to explore every tech stack.
+            Hi, I'm <span className='font-extrabold'>Muhammad Asad</span> — a Senior Frontend & React Native Developer
+            with 5+ years of experience shipping cross-platform mobile apps (iOS & Android) and modern web interfaces.
           </p>
           <p>
-            Fast-forward to today, and I’ve had the privilege of working at -{' '}
+            Currently based in Dubai, UAE, working at{' '}
             <Link
-              href="https://www.linkedin.com/company/softbuilders-software-design/mycompany/verification/"
+              href="https://softbuilders.com/"
               target="_blank"
               className="text-accent"
             >
-              Softbuilders Software
+              Softbuilders Software Design LLC
             </Link>
-            .
+            , where I build production React Native apps for UAE enterprise clients featuring NFC flows, animated wallets,
+            and real-time WebSocket screens.
           </p>
           <p>
-            My main focus these days is learning Tech and finding a decent job.
+            I'm also an AI-Augmented Engineer — I leverage Claude AI, Cursor AI, ChatGPT, and GitHub Copilot to accelerate
+            delivery and improve code quality. I hold a{' '}
+            <span className='font-semibold'>Professional Scrum Master (PSM I)</span> certification and a UAE driving license.
           </p>
 
           {list && (
