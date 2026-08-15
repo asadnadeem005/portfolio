@@ -25,8 +25,7 @@ export const seoData = {
   description:
     'Muhammad Asad is a Senior Frontend & React Native Developer with 5+ years of experience building high-performance cross-platform apps and web interfaces using React Native, React.js, Next.js, and TypeScript.',
   author: author.name,
-  image:
-    'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
+  image: '/images/og-banner.png',
   url: 'https://muhammad-asad.vercel.app/',
   keywords: [
     'Muhammad Asad',

@@ -15,9 +15,9 @@ const Skills = () => {
       <h2 className="text-center heading-secondary">{title}</h2>
 
       <div className="space-y-32">
-        {skills.map(({ id, lottie, softwareSkills, points, title }) => (
+        {skills.map(({ lottie, softwareSkills, points, title }) => (
           <Skill
-            key={id}
+            key={title}
             className="odd:lg:flex-row-reverse"
             lottie={lottie[isDarkMode ? 'dark' : 'light']}
             skills={softwareSkills}

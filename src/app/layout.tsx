@@ -25,14 +25,21 @@ export const metadata: Metadata = {
     url: seoData.url,
     title: seoData.title,
     description: seoData.description,
-    images: seoData.image,
+    images: [
+      {
+        url: seoData.image,
+        width: 1853,
+        height: 864,
+        alt: seoData.title,
+      },
+    ],
     siteName: seoData.title,
   },
   twitter: {
     card: 'summary_large_image',
     title: seoData.title,
     description: seoData.description,
-    images: seoData.image,
+    images: [seoData.image],
     site: seoData.url,
   },
   icons: [

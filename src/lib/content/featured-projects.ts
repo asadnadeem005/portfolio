@@ -1,11 +1,9 @@
 import { FeaturedProjectsSectionType } from '@/lib/types/sections';
-import { getId } from '@/lib/utils/helper';
 
 const featuredProjectsSection: FeaturedProjectsSectionType = {
   title: "projects i've worked on",
   projects: [
     {
-      id: getId(),
       name: 'Mai HRMS',
       description:
         'AI-Powered HR Platform (iOS, Android & Web) — dual-platform HRMS with role-based dashboards, real-time attendance, and LLM-powered automated activity summaries.',
@@ -16,7 +14,6 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
       tags: ['React Native', 'React.js', 'TypeScript', 'WebSockets', 'Redux Toolkit', 'React Query'],
     },
     {
-      id: getId(),
       name: 'Kabutus',
       description:
         'AI Brand & Creative Automation Platform — generative logo, image ad, and video ad workflows powered by OpenAI API with a browser-based video editor.',
@@ -27,7 +24,6 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
       tags: ['Next.js', 'TypeScript', 'OpenAI API', 'Framer Motion', 'Tailwind CSS'],
     },
     {
-      id: getId(),
       name: 'Jatina Group',
       description:
         'Miami Mansion Rentals — fully responsive luxury villa rental platform with headless CMS integration, giving the marketing team full control over listings without developer involvement.',

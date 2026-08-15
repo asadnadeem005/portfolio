@@ -1,6 +1,5 @@
 'use client';
 import { SoftwareSkillType } from '@/lib/types';
-import { getId } from '@/lib/utils/helper';
 
 import { ListItem, ShowLottie, SkillIcon } from '@/components';
 
@@ -33,15 +32,15 @@ const Skill = ({
           {title}
         </h3>
 
-        <div key={getId()} className="flex flex-wrap justify-center gap-2">
+        <div className="flex flex-wrap justify-center gap-2">
           {skills.map(({ name, icon }) => (
-            <SkillIcon key={getId()} src={icon} name={name} />
+            <SkillIcon key={name} src={icon} name={name} />
           ))}
         </div>
 
         <ul className="space-y-2 text-base">
           {points.map((point) => (
-            <ListItem key={getId()}>{point}</ListItem>
+            <ListItem key={point}>{point}</ListItem>
           ))}
         </ul>
       </div>

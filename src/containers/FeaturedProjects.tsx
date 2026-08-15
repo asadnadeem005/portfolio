@@ -23,7 +23,7 @@ const FeaturedProjects = () => {
       <div className="space-y-10 md:space-y-16 lg:space-y-36">
         {featuredProjectsSection.projects.map((project, i) => (
           <FeaturedProject
-            key={project.id}
+            key={project.name}
             align={i % 2 === 0 ? 'right' : 'left'}
             {...project}
             {...getSectionAnimation}

@@ -37,7 +37,6 @@ export interface AboutSectionType extends Section {
 }
 
 type SkillType = {
-  id: string;
   title: string;
   lottie: {
     light: string;

@@ -28,7 +28,7 @@ const Projects = () => {
             return (
               <ProjectCard
                 {...project}
-                key={project.id}
+                key={project.name}
                 variants={projectVariants}
                 initial="hidden"
                 whileInView="show"
@@ -41,7 +41,7 @@ const Projects = () => {
           return (
             <ProjectCard
               {...project}
-              key={project.id}
+              key={project.name}
               variants={projectVariants}
               initial="hidden"
               animate="show"

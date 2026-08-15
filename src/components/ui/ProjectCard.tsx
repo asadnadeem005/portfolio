@@ -5,7 +5,6 @@ import { blurImageURL } from '@/lib/utils/config';
 import { Icon } from '@iconify/react';
 import { motion, MotionProps } from 'framer-motion';
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
 
 const ProjectCard = ({
   name,
@@ -16,14 +15,7 @@ const ProjectCard = ({
   tags,
   ...rest
 }: ProjectType & MotionProps) => {
-  // To avoid hydration failed error
-  const [domLoaded, setDomLoaded] = useState(false);
-
-  useEffect(() => {
-    setDomLoaded(true);
-  }, []);
-
-  return domLoaded ? (
+  return (
     <motion.div {...rest} className="w-full max-w-[350px]">
       <button
         onClick={(e) => {
@@ -75,8 +67,6 @@ const ProjectCard = ({
         </div>
       </button>
     </motion.div>
-  ) : (
-    <></>
   );
 };
 

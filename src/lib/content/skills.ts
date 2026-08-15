@@ -1,11 +1,9 @@
 import { SkillsSectionType } from '@/lib/types/sections';
-import { getId } from '@/lib/utils/helper';
 
 export const skillsSection: SkillsSectionType = {
   title: 'what i do',
   skills: [
     {
-      id: getId(),
       title: 'react native & mobile',
       lottie: {
         light: '/lotties/frontend.json',
@@ -29,7 +27,6 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      id: getId(),
       title: 'frontend & web',
       lottie: {
         light: '/lotties/fullstack.json',
@@ -52,7 +49,6 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      id: getId(),
       title: 'AI-augmented engineering',
       lottie: {
         light: '/lotties/coding.json',

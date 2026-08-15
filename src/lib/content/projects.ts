@@ -1,11 +1,9 @@
 import { ProjectsSectionType } from '@/lib/types/sections';
-import { getId } from '@/lib/utils/helper';
 
 export const projectsSection: ProjectsSectionType = {
   title: 'my projects',
   projects: [
     {
-      id: getId(),
       name: 'Motifino',
       url: 'https://apps.apple.com/app/motifino/id6743448973',
       repo: '',
@@ -14,7 +12,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['React Native', 'TypeScript', 'NFC', 'WebSockets', 'Reanimated 2'],
     },
     {
-      id: getId(),
       name: 'Mai HRMS',
       url: 'https://client.maihrms.com/',
       repo: '',
@@ -29,7 +26,6 @@ export const projectsSection: ProjectsSectionType = {
       ],
     },
     {
-      id: getId(),
       name: 'Kabutus',
       url: 'https://kabutus.com/',
       repo: '',
@@ -38,7 +34,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['Next.js', 'TypeScript', 'OpenAI API', 'Framer Motion'],
     },
     {
-      id: getId(),
       name: 'Lit Dating App',
       url: 'https://play.google.com/store/apps/details?id=com.pentabit.recommend.me.social',
       repo: '',
@@ -47,7 +42,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['React Native', 'TypeScript', 'WebSockets', 'Redux Toolkit'],
     },
     {
-      id: getId(),
       name: 'QuickDropX',
       url: 'https://quickdropx.com/',
       repo: '',
@@ -63,7 +57,6 @@ export const projectsSection: ProjectsSectionType = {
       ],
     },
     {
-      id: getId(),
       name: 'Jatina Group',
       url: 'https://jatinagroup.com/',
       repo: '',
@@ -72,7 +65,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['Next.js', 'TypeScript', 'Headless CMS', 'Tailwind CSS'],
     },
     {
-      id: getId(),
       name: 'Midhah Lyrics',
       url: 'https://lyrics.midhah.com/naat/ilm-aghaz-mein-sipara-e-quran',
       repo: '',
@@ -81,7 +73,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['React', 'Tailwind'],
     },
     {
-      id: getId(),
       name: 'image animations',
       url: 'https://image-animations.vercel.app/',
       repo: 'https://github.com/vatsalsinghkv/image-animations',
@@ -90,7 +81,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['CSS Animations', 'Sass'],
     },
     {
-      id: getId(),
       name: 'Primary Leap',
       url: 'https://primaryleap.co.uk/',
       repo: '',
@@ -99,7 +89,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['Laravel', 'BootStrap5', 'Html/CSS'],
     },
     {
-      id: getId(),
       name: 'Feasta',
       url: 'https://www.feasta.co.uk/home',
       repo: '',
@@ -108,7 +97,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['Blade', 'Laravel', 'Google API'],
     },
     {
-      id: getId(),
       name: 'countries app',
       url: 'https://countries-app-kv.netlify.app/',
       repo: 'https://github.com/vatsalsinghkv/rest-countries-api',
@@ -117,7 +105,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['React'],
     },
     {
-      id: getId(),
       name: 'todo app',
       url: 'https://todo-kv.netlify.app/',
       repo: 'https://github.com/vatsalsinghkv/todo-app',
@@ -126,7 +113,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['React', 'Sass', 'JS'],
     },
     {
-      id: getId(),
       name: 'weather app',
       url: 'https://weather-kv.netlify.app/',
       repo: 'https://github.com/vatsalsinghkv/weather-app',
@@ -135,7 +121,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['Html', 'sass', 'JS', 'jQuery'],
     },
     {
-      id: getId(),
       name: 'blogr landing page',
       url: 'https://blogr-kv.netlify.app/',
       repo: 'https://github.com/vatsalsinghkv/blogr-landing-page',
@@ -144,7 +129,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['html', 'sass', 'JS'],
     },
     {
-      id: getId(),
       name: 'natours',
       url: 'https://natours-kv.netlify.app/',
       repo: 'https://github.com/vatsalsinghkv/natours',
@@ -153,7 +137,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['html', 'sass', 'JS'],
     },
     {
-      id: getId(),
       name: 'nexter',
       url: 'https://vatsalsinghkv.github.io/nexter/',
       repo: 'https://github.com/vatsalsinghkv/nexter',
@@ -162,7 +145,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['html', 'sass'],
     },
     {
-      id: getId(),
       name: 'IP address tracker',
       url: 'https://vatsalsinghkv.github.io/ip-address-tracker/',
       repo: 'https://github.com/vatsalsinghkv/ip-address-tracker',
@@ -171,7 +153,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['html', 'bootstrap', 'JS'],
     },
     {
-      id: getId(),
       name: 'calculator app',
       url: 'https://vatsalsinghkv.github.io/calculator-app/',
       repo: 'https://github.com/vatsalsinghkv/calculator-app/',
@@ -180,7 +161,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['html', 'CSS', 'JS'],
     },
     {
-      id: getId(),
       name: 'pig game',
       url: 'https://vatsalsinghkv.github.io/pig-game/',
       repo: 'https://github.com/vatsalsinghkv/pig-game',
@@ -189,7 +169,6 @@ export const projectsSection: ProjectsSectionType = {
       tags: ['html', 'CSS', 'JS'],
     },
     {
-      id: getId(),
       name: 'bankist marketing',
       url: 'https://vatsalsinghkv.github.io/bankist-marketing/',
       repo: 'https://github.com/vatsalsinghkv/bankist-marketing',
