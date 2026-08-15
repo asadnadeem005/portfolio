@@ -79,9 +79,8 @@ const Hero = () => {
           initial="hidden"
           animate="show"
           href={cta?.url ?? '#'}
-          className={`mt-5 xs:mt-8 md:mt-10 ${
-            cta.hideInDesktop ? 'md:hidden' : ''
-          }`}
+          className={`mt-5 xs:mt-8 md:mt-10 ${cta.hideInDesktop ? 'md:hidden' : ''
+            }`}
           sameTab={cta?.sameTab}
         >
           {cta.title}
