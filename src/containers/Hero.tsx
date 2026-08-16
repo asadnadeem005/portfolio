@@ -5,7 +5,7 @@ import { Button, Wrapper } from '@/components';
 
 import { useEffect, useState } from 'react';
 
-const typewriterWords = ['mobile apps.', 'web experiences.', 'AI interfaces.'];
+const typewriterWords = ['SaaS platforms.', 'digital wallets.', 'mobile apps.'];
 
 const Hero = () => {
   const { cta, subtitle, title, description, specialText, badges } = heroSection;
@@ -53,7 +53,7 @@ const Hero = () => {
           {title}
         </h1>
         <h1 className="leading-[1.2]">
-          I build high-performance
+          I build AI-powered
         </h1>
         <h1 className="leading-[1.2] text-accent min-h-[1.2em]">
           {displayed}

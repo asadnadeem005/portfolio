@@ -4,6 +4,14 @@ export const projectsSection: ProjectsSectionType = {
   title: 'my projects',
   projects: [
     {
+      name: 'Effora',
+      url: 'https://dev.web.effora.dfordev.com/marketplace',
+      repo: '',
+      img: '/images/effora.png',
+      year: 2026,
+      tags: ['Next.js', 'React Native', 'NestJS', 'OpenAI API', 'Multi-tenant SaaS'],
+    },
+    {
       name: 'Motifino',
       url: 'https://apps.apple.com/app/motifino/id6743448973',
       repo: '',

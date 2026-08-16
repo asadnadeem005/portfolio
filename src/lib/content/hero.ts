@@ -4,11 +4,11 @@ import { resumeFileName } from '@/lib/utils/config';
 export const heroSection: HeroSectionType = {
   subtitle: 'Hi, my name is',
   title: 'muhammad asad.',
-  tagline: 'I build high-performance mobile & web experiences.',
+  tagline: 'I build AI-powered SaaS, fintech & mobile products.',
   description:
-    'Senior Frontend & React Native Developer with 5+ years of experience delivering cross-platform mobile apps (iOS & Android) and modern web interfaces using React Native, React.js, Next.js, and TypeScript. AI-Augmented Engineer based in Dubai, UAE.',
+    'Senior Full Stack Developer with 5+ years of experience building AI-powered SaaS, digital wallets & payments, and cross-platform mobile apps (iOS & Android) using React Native, React.js, Node.js, NestJS, and TypeScript. OpenAI API / LLM integration specialist based in Dubai, UAE.',
   specialText: 'Dubai-based · Immediate joiner · Open to opportunities',
-  badges: ['React Native', 'TypeScript', 'Next.js', 'AI-Augmented', 'iOS & Android'],
+  badges: ['React Native', 'Node.js', 'OpenAI API', 'TypeScript', 'Next.js'],
   cta: {
     title: 'see my resume',
     url: `/${resumeFileName}`,

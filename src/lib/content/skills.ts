@@ -49,15 +49,36 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
+      title: 'backend & fintech',
+      lottie: {
+        light: '/lotties/fullstack.json',
+        dark: '/lotties/cloudinfra.json',
+      },
+      points: [
+        'Architecting multi-tenant SaaS backends with NestJS, Node.js, PostgreSQL, MongoDB, and Redis',
+        'Building fintech systems — digital wallets, credit ledgers, automated payouts, and idempotent webhook handling',
+        'Securing APIs with OAuth 2.0, JWT, RBAC, and MFA; owning CI/CD with Docker and AWS',
+      ],
+      softwareSkills: [
+        { name: 'Node.js', icon: 'logos:nodejs-icon' },
+        { name: 'NestJS', icon: 'logos:nestjs' },
+        { name: 'PostgreSQL', icon: 'logos:postgresql' },
+        { name: 'MongoDB', icon: 'logos:mongodb-icon' },
+        { name: 'Redis', icon: 'logos:redis' },
+        { name: 'Docker', icon: 'vscode-icons:file-type-docker' },
+        { name: 'AWS', icon: 'logos:aws' },
+      ],
+    },
+    {
       title: 'AI-augmented engineering',
       lottie: {
         light: '/lotties/coding.json',
         dark: '/lotties/cloudinfra.json',
       },
       points: [
-        'Using Claude AI and Cursor AI for AI-assisted component scaffolding, reducing dev time by 30%',
-        'Integrating OpenAI API for generative UI, AI-powered recommendations, and LLM workflows',
-        'Building AI-driven creative platforms with natural language prompt pipelines and real-time previews',
+        'Shipping production OpenAI-powered features — conversational AI, natural-language data querying, and AI-driven pricing',
+        'Integrating OpenAI Vision for automated document and identity verification (KYC)',
+        'Using Claude AI, Cursor AI, and GitHub Copilot for AI-assisted engineering without loosening review or test standards',
       ],
       softwareSkills: [
         { name: 'OpenAI', icon: 'simple-icons:openai' },

@@ -21,16 +21,19 @@ export const author = {
 };
 
 export const seoData = {
-  title: 'Muhammad Asad | Senior Frontend & React Native Developer',
+  title: 'Muhammad Asad | Senior Full Stack Developer',
   description:
-    'Muhammad Asad is a Senior Frontend & React Native Developer with 5+ years of experience building high-performance cross-platform apps and web interfaces using React Native, React.js, Next.js, and TypeScript.',
+    'Muhammad Asad is a Senior Full Stack Developer with 5+ years of experience building AI-powered SaaS, digital wallets, and cross-platform mobile apps using React Native, React.js, Node.js, NestJS, and TypeScript. Based in Dubai, UAE.',
   author: author.name,
   image: '/images/og-banner.png',
   url: 'https://muhammad-asad.vercel.app/',
   keywords: [
     'Muhammad Asad',
+    'Full Stack Developer',
     'React Native Developer',
-    'Frontend Developer',
+    'Node.js Developer',
+    'OpenAI API',
+    'LLM Integration',
     'TypeScript',
     'Next.js',
     'Dubai Developer',

@@ -15,8 +15,8 @@ const About = () => {
       <main className="flex flex-col items-center gap-16 lg:items-start lg:flex-row">
         <div className="space-y-4 lg:w-3/5">
           <p>
-            Hi, I'm <span className='font-extrabold'>Muhammad Asad</span> — a Senior Frontend & React Native Developer
-            with 5+ years of experience shipping cross-platform mobile apps (iOS & Android) and modern web interfaces.
+            Hi, I'm <span className='font-extrabold'>Muhammad Asad</span> — a Senior Full Stack Developer
+            with 5+ years of experience building AI-powered SaaS, fintech, and mobile products end to end.
           </p>
           <p>
             Currently based in Dubai, UAE, working at{' '}
@@ -27,13 +27,16 @@ const About = () => {
             >
               Softbuilders Software Design LLC
             </Link>
-            , where I build production React Native apps for UAE enterprise clients featuring NFC flows, animated wallets,
-            and real-time WebSocket screens.
+            , where I'm the sole engineer on Effora, a multi-tenant AI business suite for the salon & wellness industry,
+            and build fintech products — digital wallets, credit ledgers, automated payouts, and OpenAI Vision-powered
+            identity verification — for UAE enterprise clients.
           </p>
           <p>
             I'm also an AI-Augmented Engineer — I leverage Claude AI, Cursor AI, ChatGPT, and GitHub Copilot to accelerate
             delivery and improve code quality. I hold a{' '}
-            <span className='font-semibold'>Professional Scrum Master (PSM I)</span> certification and a UAE driving license.
+            <span className='font-semibold'>Professional Scrum Master (PSM I)</span> certification, a{' '}
+            <span className='font-semibold'>Bachelor's degree in Computer Science</span> from the University of Sargodha,
+            and a UAE driving license.
           </p>
 
           {list && (

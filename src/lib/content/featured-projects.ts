@@ -4,6 +4,16 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
   title: "projects i've worked on",
   projects: [
     {
+      name: 'Effora',
+      description:
+        'Multi-tenant AI Business Suite for Salon & Wellness — an AI-powered booking marketplace and full business suite (calendar, billing, POS, CRM), built solo end to end.',
+      tasks:
+        'Sole engineer on architecture, backend, web, and React Native apps. Shipped eight OpenAI-powered tools — an AI receptionist for 24/7 phone bookings, a chatbot with smart escalation, a natural-language business assistant, voice booking, dynamic pricing, and OpenAI Vision-powered KYC — on top of full salon operations: calendar, CRM, marketing automation, loyalty, inventory, and payroll.',
+      url: 'https://dev.web.effora.dfordev.com/marketplace',
+      img: '/images/effora.png',
+      tags: ['Next.js', 'React Native', 'NestJS', 'OpenAI API', 'PostgreSQL', 'Redis'],
+    },
+    {
       name: 'Mai HRMS',
       description:
         'AI-Powered HR Platform (iOS, Android & Web) — dual-platform HRMS with role-based dashboards, real-time attendance, and LLM-powered automated activity summaries.',
