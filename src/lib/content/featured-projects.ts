@@ -6,12 +6,12 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
     {
       name: 'Effora',
       description:
-        'Multi-tenant AI Business Suite for Salon & Wellness — an AI-powered booking marketplace and full business suite (calendar, billing, POS, CRM), built solo end to end.',
+        'Full-stack multi-sided SaaS marketplace connecting beauty & wellness businesses with customers — 5 web portals, 3 Flutter apps, and a unified NestJS API, with 3 embedded AI systems powered by Anthropic Claude.',
       tasks:
-        'Sole engineer on architecture, backend, web, and React Native apps. Shipped eight OpenAI-powered tools — an AI receptionist for 24/7 phone bookings, a chatbot with smart escalation, a natural-language business assistant, voice booking, dynamic pricing, and OpenAI Vision-powered KYC — on top of full salon operations: calendar, CRM, marketing automation, loyalty, inventory, and payroll.',
-      url: 'https://dev.web.effora.dfordev.com/marketplace',
+        'Built the complete platform across all surfaces: React 19 customer marketplace and B2B partner dashboard (TypeScript, TailwindCSS v4, shadcn/ui), three Flutter apps (customer, shop, staff), and a NestJS backend with PostgreSQL, Elasticsearch, Redis, and BullMQ. Shipped three AI systems — a Claude-powered Business Agent with 20+ RBAC-enforced tools for natural-language operations, a multilingual Customer Booking Agent with voice I/O via OpenAI Whisper + TTS, and an automated AI Business Analyst with cron-scheduled metric insight cards. Full feature set: appointments, Stripe payments, CRM, HRMS, inventory, real-time Socket.io, Mapbox integration, and multi-currency support.',
+      url: 'https://effora.com/',
       img: '/images/effora.png',
-      tags: ['Next.js', 'React Native', 'NestJS', 'OpenAI API', 'PostgreSQL', 'Redis'],
+      tags: ['React 19', 'Flutter', 'NestJS', 'Claude AI', 'TypeScript', 'PostgreSQL'],
     },
     {
       name: 'Mai HRMS',

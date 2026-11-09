@@ -5,11 +5,11 @@ export const projectsSection: ProjectsSectionType = {
   projects: [
     {
       name: 'Effora',
-      url: 'https://dev.web.effora.dfordev.com/marketplace',
+      url: 'https://effora.com/',
       repo: '',
       img: '/images/effora.png',
       year: 2026,
-      tags: ['Next.js', 'React Native', 'NestJS', 'OpenAI API', 'Multi-tenant SaaS'],
+      tags: ['React 19', 'Flutter', 'NestJS', 'Claude AI', 'PostgreSQL', 'Elasticsearch'],
     },
     {
       name: 'Motifino',

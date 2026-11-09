@@ -80,7 +80,7 @@ const FeaturedProject = ({
         <div className="lg:bg-bg-secondary rounded-sm lg:shadow-lg lg:p-5">
           <div
             className={cn(
-              'lg:max-w-sm text-slate-200 lg:text-inherit text-sm lg:text-base',
+              'lg:max-w-sm text-slate-200 lg:text-left text-sm lg:text-base',
               align === 'right' && 'ml-auto'
             )}
           >

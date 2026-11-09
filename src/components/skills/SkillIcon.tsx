@@ -7,20 +7,19 @@ type Props = {
 
 const SkillIcon = ({ src, name }: Props) => {
   return (
-    <div className="relative grid text-2xl rounded-full shadow-md bg-bg-secondary dark:shadow-xl h-14 w-14 sm:h-16 sm:w-16 place-items-center group">
-      <Icon icon={src} width="32" height="32" />
-      <div className="absolute invisible px-2 py-1 text-sm text-white capitalize duration-200 rounded opacity-0 w-max group-hover:opacity-100 group-hover:visible -top-8 bg-slate-900/75 dark:bg-slate-700/90 dark:text-slate-100">
-        {name}
-        <svg
-          className="absolute left-0 w-full h-2 text-slate-900/75 dark:text-slate-700/90 top-full"
-          x="0px"
-          y="0px"
-          viewBox="0 0 255 255"
-          xmlSpace="preserve"
-        >
-          <polygon className="fill-current" points="0,0 127.5,127.5 255,0" />
-        </svg>
+    <div className="group flex flex-col items-center gap-2 cursor-default select-none">
+      <div className="relative h-14 w-14 sm:h-16 sm:w-16 rounded-2xl bg-gradient-to-br from-slate-700/60 to-slate-900 border border-slate-700/70 grid place-items-center shadow-md transition-all duration-300 ease-out group-hover:scale-110 group-hover:-translate-y-1 group-hover:border-accent group-hover:shadow-lg">
+        <div className="absolute inset-0 rounded-2xl bg-accent opacity-0 group-hover:opacity-5 transition-opacity duration-300" />
+        <Icon
+          icon={src}
+          width="30"
+          height="30"
+          className="relative z-10 transition-transform duration-300 group-hover:scale-110 drop-shadow-sm"
+        />
       </div>
+      <span className="text-[10px] font-mono text-slate-500 group-hover:text-accent transition-colors duration-200 capitalize text-center leading-tight max-w-[72px]">
+        {name}
+      </span>
     </div>
   );
 };
